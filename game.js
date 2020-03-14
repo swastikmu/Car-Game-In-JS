@@ -151,7 +151,8 @@
   player.start = false;
   // gameArea.classList.add('hide');
   //score.classList.add('hide');
-  startScreen.innerHTML = score.innerHTML;
+ 
+  startScreen.innerHTML = "Game Over! <br> Your final score is " + player.score + " Press Here to start again";
   startScreen.classList.remove('hide');
   }
 
